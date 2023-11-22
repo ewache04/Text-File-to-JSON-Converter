@@ -1,0 +1,31 @@
+# Text File to JSON Converter
+
+Author: Jeremiah E. Ochepo
+Last Updated: 3/23/2017
+Description: This Python script reads the content of a text file, stores it in a JSON file, and then displays the content from the JSON file.
+
+## Instructions
+
+1. Place the text file you want to convert in the same directory as this script.
+
+2. Run the script using Python (json_dump_and_load.py()).
+
+3. The script will read the content of the text file, store it in a JSON file named `text_string.json`, and display the content.
+
+4. If the text file is not found or there is an issue with the JSON encoding, appropriate error messages will be displayed.
+
+## File Details
+
+- `readTextFile`: Reads the content of the specified text file.
+
+- `storeTextFileInJson`: Reads the text file content and stores it in a JSON file.
+
+- `displayTextFileFromJson`: Reads and displays the content from the stored JSON file.
+
+## Notes
+
+- Make sure to adjust the file names or paths in the script according to your requirements.
+
+- This script uses exception handling to provide informative error messages in case of issues.
+
+- Ensure that the text file contains valid content that can be successfully loaded into JSON format.
